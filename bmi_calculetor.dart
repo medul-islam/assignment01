@@ -24,8 +24,9 @@ void main(){
   double bmi = calculateBMI(weight, height);
   String category = bmiCategory(bmi);
 
-  print("Your BMI is : $bmi");
+  print("Your BMI is : ${bmi.toStringAsFixed(2)}");
   print("Category : $category");
+
 
 
 }
